@@ -8,7 +8,8 @@ public class prog01 {
     Scanner teclado = new Scanner(System.in);
     int numero;
     System.out.print("Numero: ");
-    numero = Integer.valueOf(teclado.nextLine());
+   //numero = Integer.valueOf(teclado.nextLine());
+   numero = teclado.nextInt();
     if (numero % 2 == 0) {
         System.out.println("Resultado = PAR");
     } else {

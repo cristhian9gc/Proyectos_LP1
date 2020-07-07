@@ -11,11 +11,8 @@ package lp1_proyectos;
  */
 public class LP1_Proyectos {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
         // TODO code application logic here
     }
-    
+   
 }
