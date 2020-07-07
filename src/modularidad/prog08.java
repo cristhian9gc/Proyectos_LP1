@@ -11,8 +11,17 @@ public class prog08 {
     public static void saludo2(String nombre, String carrera){
         System.out.println(nombre+" Disfruta tu estadia en la carrera de "+ carrera);
     }
+    public static void factorial(int num){
+        int fact =1;
+        for(int i=1; i<=num; i++){
+            fact*=i;
+        }
+        System.out.println("Factorial de "+num+" es: "+ fact);
+    }
+    
     public static void main(String[] args) {
         saludo("Cristian");
         saludo2("Pamela Greta", "Ing. Sistemas");
+        factorial(5);
     }
 }
